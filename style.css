@@ -36,8 +36,6 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
 a{
@@ -49,7 +47,53 @@ a{
     gap: 10px;
 }
 
-h3{
+h3, h4{
     background-color: rgba(99, 95, 95, 0.5);
     color: white;
 }
+
+i{
+    background-color: rgba(99, 95, 95, 0.5);
+}
+
+
+
+/*SETTING HEADER*/ 
+main{
+    position: relative;
+ 
+}
+
+.contenitore{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1%;
+    padding: 0 20px;
+    width: 100%;   
+
+}
+
+
+.user{
+    width: 100vh ; 
+    height: 100%;
+    position: relative;
+
+}
+
+.name{
+    background-color: rgba(99, 95, 95, 0.5);
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px
+    ;
+}
+
