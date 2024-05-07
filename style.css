@@ -28,8 +28,7 @@ nav{
     flex-wrap: nowrap;
     z-index: 900;
     color: white;
-    gap: 10px
-    ;
+    gap: 10px;
 }
 #speakerview{
     background-color: rgba(99, 95, 95, 0.5);
@@ -61,6 +60,7 @@ i{
 /*SETTING HEADER*/ 
 main{
     position: relative;
+    
  
 }
 
@@ -68,17 +68,16 @@ main{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 1%;
-    padding: 0 20px;
-    width: 100%;   
+    gap: 2%;
 
+    width: 100vw; 
+   
 }
 
 
 .user{
-    width: 100vh ; 
-    height: 100%;
     position: relative;
+    flex-shrink: 0;
 
 }
 
@@ -93,7 +92,12 @@ main{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    gap: 10px
-    ;
+    gap: 10px;
+}
+
+img{
+    margin: 2%;
+    width: 300px;
+    background-size: cover;
 }
 
